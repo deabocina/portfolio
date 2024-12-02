@@ -1,5 +1,7 @@
 {
-  "header": {
-    "welcome": "Welcome to my portfolio!"
+  "main": {
+    "intro": "I'm Dea Bočina.",
+    "about": "A frontend developer passionate about creating interactive and responsive web applications. I enjoy exploring new technologies and tools to build modern and user-centric projects.",
+    "projects": "Selected projects"
   }
 }

@@ -1,5 +1,7 @@
 {
-  "header": {
-    "welcome": "Dobrodošli u moj portfolio!"
+  "main": {
+    "intro": "Ja sam Dea Bočina.",
+    "about": "Frontend developer sa strašću za stvaranje interaktivnih i responzivnih web aplikacija. Volim istraživati nove tehnologije i alate da izgradim moderne i korisnički orijentirane projekte.",
+    "projects": "Odabrani projekti"
   }
 }
