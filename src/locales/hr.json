@@ -1,7 +1,27 @@
 {
-  "main": {
+  "home": {
     "intro": "Ja sam Dea Bočina.",
     "about": "Frontend developer sa strašću za stvaranje interaktivnih i responzivnih web aplikacija. Volim istraživati nove tehnologije i alate da izgradim moderne i korisnički orijentirane projekte.",
     "projects": "Odabrani projekti"
+  },
+  "projects": {
+    "simplify": {
+      "name": "Simplify",
+      "logo": "logoSimplify",
+      "description": "Simplify je elegantna i intuitivna aplikacija za popis obaveza dizajnirana da vam pomogne upravljati svojim zadacima s lakoćom i jasnoćom.",
+      "technologies": "React, TypeScript, Vite, Firebase",
+      "keyFeatures": "Lako upravljanje zadacima i popisima, sortiranje zadataka prema bojama, pametno planiranje, proslavite uspjeh uz Confetti!, besprijekorna i sigurna provjera autentičnosti korisnika, dizajnirano za sve uređaje",
+      "image": "showcaseSimplify",
+      "deployLink": "https://deabocina.github.io/simplify/"
+    },
+    "weather": {
+      "name": "Weather or Not",
+      "logo": "logoWeather",
+      "description": "Weather or Not je moderna aplikacija za vremensku prognozu koja korisnicima omogućuje traženje i pregled vremenskih informacija u stvarnom vremenu za bilo koji grad. Dohvaćanjem podataka iz Weather API-ja, aplikacija korisnicima pruža ažurirane podatke o vremenu, što je čini pouzdanim alatom za dnevno i dugoročno planiranje.",
+      "technologies": "React, TypeScript, Vite, Weather API",
+      "keyFeatures": "Vremenske informacije u stvarnom vremenu, satne i tjedne prognoze, pretraga grada s automatskim prijedlozima, dinamička pozadina (dan/noć), promjena jedinica temperature (Celsius/Fahrenheit), potpuno responzivan dizajn",
+      "image": "showcaseWeather",
+      "deployLink": "https://deabocina.github.io/weather-or-not/"
+    }
   }
 }

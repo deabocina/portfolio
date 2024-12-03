@@ -1,7 +1,27 @@
 {
-  "main": {
+  "home": {
     "intro": "I'm Dea Bočina.",
     "about": "A frontend developer passionate about creating interactive and responsive web applications. I enjoy exploring new technologies and tools to build modern and user-centric projects.",
     "projects": "Selected projects"
+  },
+  "projects": {
+    "simplify": {
+      "name": "Simplify",
+      "logo": "logoSimplify",
+      "description": "Simplify is a sleek and intuitive to-do list app designed to help you manage your tasks with ease and clarity.",
+      "technologies": "React, TypeScript, Vite, Firebase",
+      "keyFeatures": "Effortless Task and List Management, Colour-Coded Task Sorting, Smart Scheduling, Celebrate Success with Confetti!, Seamless and Secure User Authentication, Designed for All Devices",
+      "image": "showcaseSimplify",
+      "deployLink": "https://deabocina.github.io/simplify/"
+    },
+    "weather": {
+      "name": "Weather or Not",
+      "logo": "logoWeather",
+      "description": "Weather or Not is a modern weather application that allows users to search for and view real-time weather information for any city. By fetching data from the Weather API, the app provides users with up-to-date weather details, making it a reliable tool for both daily and long-term planning.",
+      "technologies": "React, TypeScript, Vite, Weather API",
+      "keyFeatures": "Real-Time Weather Information, Hourly & Weekly Forecasts, City Search with Auto-Suggestions, Dynamic Background (Day/Night), Temperature Unit Toggle (Celsius/Fahrenheit), Fully Responsive Design",
+      "image": "showcaseWeather",
+      "deployLink": "https://deabocina.github.io/weather-or-not/"
+    }
   }
 }
