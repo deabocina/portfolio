@@ -21,5 +21,9 @@
       "keyFeatures": "Real-Time Weather Info, Hourly & Weekly Forecasts, City Search, Dynamic Background, Temperature Unit Toggle, Fully Responsive",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
     }
+  },
+  "footer": {
+    "ideas": "Got ideas?",
+    "message": "Let’s make them happen together."
   }
 }

@@ -68,9 +68,12 @@ const Home = () => {
 
           {projects.map((project, index) => (
             <div key={index} className="relative group font-medium w-72">
-              <p className="py-2 border-b-2 border-gray-100 transition-all duration-300 ease-in-out hover:border-gray-400 cursor-pointer">
-                {project}
-              </p>
+              <a href={`#${project.toLowerCase().replace(/\s+/g, "")}`}>
+                <p className="py-2 border-b-2 border-gray-100 transition-all duration-300 ease-in-out hover:border-gray-400 cursor-pointer">
+                  {project}
+                </p>
+              </a>
+
               <img
                 src={icons.rightArrow}
                 className="absolute top-0 right-0 w-5 h-5 mt-3 opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100 cursor-pointer"

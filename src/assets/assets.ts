@@ -5,9 +5,8 @@ import email from "../assets/icons/email.png";
 import github from "../assets/icons/github.png";
 import rightArrow from "../assets/icons/right-arrow.png";
 import logoSimplify from "../assets/icons/logo-simplify.png";
-import showcaseSimplify from "../assets/icons/showcase.png";
 import logoWeather from "../assets/icons/logo-weather-or-not.png";
-import showcaseWeather from "../assets/icons/weather-or-not.jpeg";
+import upArrow from "../assets/icons/up-arrow.png";
 
 export const icons = {
   logo,
@@ -17,7 +16,6 @@ export const icons = {
   github,
   rightArrow,
   logoSimplify,
-  showcaseSimplify,
   logoWeather,
-  showcaseWeather,
+  upArrow,
 };

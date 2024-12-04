@@ -21,5 +21,9 @@
       "keyFeatures": "Vremenske Informacije u Stvarnom Vremenu, Satne & Tjedne Prognoze, Pretraga Grada, Dinamička Pozadina, Promjena Jedinica Temperature, Potpuno Responzivan Dizajn",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
     }
+  },
+  "footer": {
+    "ideas": "Imate ideje?",
+    "message": "Ostvarimo ih zajedno."
   }
 }
