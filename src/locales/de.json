@@ -1,0 +1,29 @@
+{
+  "home": {
+    "intro": "Ich bin Dea Bočina.",
+    "about": "Ein Frontend-Entwickler, der leidenschaftlich daran interessiert ist, interaktive und reaktionsschnelle Webanwendungen zu erstellen. Ich genieße es, neue Technologien und Tools zu erforschen, um moderne und benutzerzentrierte Projekte zu entwickeln.",
+    "projects": "Ausgewählte Projekte"
+  },
+  "projects": {
+    "simplify": {
+      "logo": "logoSimplify",
+      "technologies": "React, TypeScript, Vite, Firebase",
+      "name": "Simplify",
+      "description": "Simplify ist eine schlanke und benutzerfreundliche To-Do-Liste-App, die Ihnen hilft, organisiert und produktiv zu bleiben. Sie können schnell Listen oder Aufgaben erstellen, bearbeiten und löschen, Farben verwenden, um Ihr Dashboard anzupassen, und das Startdatum sowie die Uhrzeit für Aufgaben festlegen, um auf dem richtigen Weg zu bleiben. Entworfen, um auf jedem Gerät nahtlos zu funktionieren, hält Simplify Ihre Aufgaben sicher und jederzeit zugänglich. Feiern Sie Ihren Fortschritt mit Konfetti, wenn Sie eine Aufgabe abschließen, wodurch Produktivität sowohl belohnend als auch unterhaltsam wird!",
+      "keyFeatures": "Aufgabenverwaltung, Farbcode, Intelligente Planung, Konfetti-Feier, Sichere Authentifizierung, Reaktionsschnelles Design",
+      "deployLink": "https://deabocina.github.io/simplify/"
+    },
+    "weatherOrNot": {
+      "logo": "logoWeather",
+      "technologies": "React, TypeScript, Vite, Weather API",
+      "name": "Weather or Not",
+      "description": "Weather or Not ist eine Wetter-App, die Echtzeit-Wetterupdates für jede Stadt bietet. Sie können schnell nach einer Stadt suchen und die aktuellen Wetterbedingungen einsehen, einschließlich Temperatur, Luftfeuchtigkeit und Vorhersagen für den Tag oder die kommende Woche. Die App bietet einen dynamischen Hintergrund, der sich je nach Tageszeit ändert, und ermöglicht es Ihnen, zwischen Celsius und Fahrenheit sowie anderen Maßeinheiten für Windgeschwindigkeit, Druck und mehr umzuschalten. Mit einem vollständig reaktionsschnellen Design können Sie Wetterinformationen auf jedem Gerät leicht abrufen und bleiben überall gut vorbereitet.",
+      "keyFeatures": "Echtzeit-Wetterinformationen, Stündliche und wöchentliche Vorhersagen, Stadt-Suche, Dynamischer Hintergrund, Temperatur-Einheitenschalter, Vollständig reaktionsschnell",
+      "deployLink": "https://deabocina.github.io/weather-or-not/"
+    }
+  },
+  "footer": {
+    "ideas": "Hast du Ideen?",
+    "message": "Lass uns zusammen daran arbeiten, sie zu verwirklichen."
+  }
+}

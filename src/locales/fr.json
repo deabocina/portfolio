@@ -1,0 +1,29 @@
+{
+  "home": {
+    "intro": "Je suis Dea Bočina.",
+    "about": "Un développeur frontend passionné par la création d'applications web interactives et réactives. J'aime explorer de nouvelles technologies et outils pour créer des projets modernes et centrés sur l'utilisateur.",
+    "projects": "Projets sélectionnés"
+  },
+  "projects": {
+    "simplify": {
+      "logo": "logoSimplify",
+      "technologies": "React, TypeScript, Vite, Firebase",
+      "name": "Simplify",
+      "description": "Simplify est une application de gestion de tâches simple et facile à utiliser qui vous aide à rester organisé et productif. Vous pouvez créer, modifier et supprimer des listes ou des tâches, utiliser des couleurs pour personnaliser votre tableau de bord et définir la date et l'heure de début des tâches pour rester sur la bonne voie. Conçu pour fonctionner parfaitement sur tous les appareils, Simplify garde vos tâches sécurisées et toujours accessibles. Célébrez vos progrès avec des confettis lorsque vous complétez une tâche, rendant la productivité à la fois agréable et gratifiante!",
+      "keyFeatures": "Gestion des tâches, Codage par couleur, Planification intelligente, Célébration par confettis, Authentification sécurisée, Design réactif",
+      "deployLink": "https://deabocina.github.io/simplify/"
+    },
+    "weatherOrNot": {
+      "logo": "logoWeather",
+      "technologies": "React, TypeScript, Vite, Weather API",
+      "name": "Weather or Not",
+      "description": "Weather or Not est une application météo qui fournit des mises à jour en temps réel pour n'importe quelle ville. Vous pouvez rechercher rapidement une ville et voir les conditions météorologiques actuelles, y compris la température, l'humidité et les prévisions pour la journée ou la semaine à venir. L'application offre un fond dynamique qui change en fonction de l'heure de la journée et vous permet de passer de Celsius à Fahrenheit, ainsi que d'autres unités de mesure pour la vitesse du vent, la pression et plus encore. Avec un design entièrement réactif, vous pouvez facilement accéder aux informations météorologiques sur n'importe quel appareil, vous permettant de rester préparé où que vous soyez.",
+      "keyFeatures": "Informations météorologiques en temps réel, Prévisions horaires et hebdomadaires, Recherche de ville, Fond dynamique, Commutateur d'unité de température, Entièrement réactif",
+      "deployLink": "https://deabocina.github.io/weather-or-not/"
+    }
+  },
+  "footer": {
+    "ideas": "Vous avez des idées?",
+    "message": "Réalisez-les ensemble."
+  }
+}

@@ -9,12 +9,14 @@ const Home = () => {
   const switchLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
   };
+  const langEffect =
+    "cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600";
 
   return (
     <div className="min-h-screen mb-10">
       <header className="p-4 flex justify-between items-center">
         <div className="ml-5 transition-all duration-300 ease-in-out hover:scale-125">
-          <a href="/">
+          <a href="/portfolio/">
             <img
               src={icons.logo}
               alt="Logo"
@@ -27,13 +29,25 @@ const Home = () => {
             src={icons.en}
             alt="English"
             onClick={() => switchLanguage("en")}
-            className="cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+            className={langEffect}
           />
           <img
             src={icons.hr}
             alt="Hrvatski"
             onClick={() => switchLanguage("hr")}
-            className="cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+            className={langEffect}
+          />
+          <img
+            src={icons.de}
+            alt="German"
+            onClick={() => switchLanguage("de")}
+            className={langEffect}
+          />
+          <img
+            src={icons.fr}
+            alt="French"
+            onClick={() => switchLanguage("fr")}
+            className={langEffect}
           />
         </div>
       </header>
