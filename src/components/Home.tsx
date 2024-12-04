@@ -11,40 +11,46 @@ const Home = () => {
   };
 
   return (
-    <div className="h-screen">
+    <div className="min-h-screen mb-10">
       <header className="p-4 flex justify-between items-center">
-        <div className="logo size-[150px] ml-5 transition-all duration-300 ease-in-out hover:scale-125">
+        <div className="ml-5 transition-all duration-300 ease-in-out hover:scale-125">
           <a href="/">
-            <img src={icons.logo} alt="Logo" />
+            <img
+              src={icons.logo}
+              alt="Logo"
+              className="lg:w-36 md:w-28 sm:w-20 w-16"
+            />
           </a>
         </div>
-        <div className="language-switch flex gap-3 mr-20">
+        <div className="flex gap-3 lg:mr-20 mr-5">
           <img
             src={icons.en}
             alt="English"
             onClick={() => switchLanguage("en")}
-            className="cursor-pointer w-12 h-12 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+            className="cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
           />
           <img
             src={icons.hr}
             alt="Hrvatski"
             onClick={() => switchLanguage("hr")}
-            className="cursor-pointer w-12 h-12 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+            className="cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
           />
         </div>
       </header>
 
-      <div className="flex flex-wrap mt-14 md:flex-row">
-        <div className="basis-3/5 ml-10">
-          <h1 className="text-9xl font-medium">{t("home.intro")}</h1>
-          <p className="text-2xl mt-10">{t("home.about")}</p>
+      <div className="flex flex-wrap mt-14 lg:ml-5">
+        <div className="lg:basis-3/5 size-9/12 mx-10">
+          <h1 className="lg:text-9xl md:text-8xl text-7xl font-medium">
+            {t("home.intro")}
+          </h1>
+          <p className="lg:text-2xl text-xl mt-10">{t("home.about")}</p>
 
           <div className="flex cursor-pointer mt-10 justify-center">
             <a href="mailto:deabocina9@gmail.com">
               <img
                 src={icons.email}
                 alt="E-mail Account"
-                className="size-14 mr-5 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+                className="aspect-square lg:w-14 md:w-12 w-10 mr-5 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
               />
             </a>
             <a
@@ -55,20 +61,20 @@ const Home = () => {
               <img
                 src={icons.github}
                 alt="Github Profile"
-                className="size-14 mr-5 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
+                className="aspect-square lg:w-14 md:w-12 w-10 mr-5 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600"
               />
             </a>
           </div>
         </div>
 
-        <div className="flex-wrap mt-5 ml-20">
-          <p className="uppercase font-medium tracking-wider text-gray-400 w-500 mb-5 transition-all duration-300 ease-in-out hover:scale-125">
+        <div className="xl:ml-20 mx-auto">
+          <p className="uppercase mt-20 font-medium tracking-wider text-gray-400 w-500 mb-5 transition-all duration-300 ease-in-out hover:animate-bounce">
             {t("home.projects")}
           </p>
 
           {projects.map((project, index) => (
             <div key={index} className="relative group font-medium w-72">
-              <a href={`#${project.toLowerCase().replace(/\s+/g, "")}`}>
+              <a href={`#${project.toLowerCase().replace(/\s+/g, "-")}`}>
                 <p className="py-2 border-b-2 border-gray-100 transition-all duration-300 ease-in-out hover:border-gray-400 cursor-pointer">
                   {project}
                 </p>
