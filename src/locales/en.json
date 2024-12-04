@@ -6,21 +6,19 @@
   },
   "projects": {
     "simplify": {
-      "name": "Simplify",
       "logo": "logoSimplify",
-      "description": "Simplify is a sleek and intuitive to-do list app designed to help you manage your tasks with ease and clarity.",
       "technologies": "React, TypeScript, Vite, Firebase",
-      "keyFeatures": "Effortless Task and List Management, Colour-Coded Task Sorting, Smart Scheduling, Celebrate Success with Confetti!, Seamless and Secure User Authentication, Designed for All Devices",
-      "image": "showcaseSimplify",
+      "name": "Simplify",
+      "description": "Simplify is a sleek and easy-to-use to-do list app that helps you stay organised and productive. You can quickly create, edit and delete lists or tasks, use colours to personalise your dashboard and set the start date and time for tasks to stay on track. Designed to work seamlessly on any device, Simplify keeps your tasks secure and always within reach. Celebrate your progress with confetti when you complete a task, making productivity feel rewarding and fun!",
+      "keyFeatures": "Task Management, Colour-Coding, Smart Scheduling, Confetti Celebration, Secure Authentication, Responsive Design",
       "deployLink": "https://deabocina.github.io/simplify/"
     },
-    "weather": {
-      "name": "Weather or Not",
+    "weatherOrNot": {
       "logo": "logoWeather",
-      "description": "Weather or Not is a modern weather application that allows users to search for and view real-time weather information for any city. By fetching data from the Weather API, the app provides users with up-to-date weather details, making it a reliable tool for both daily and long-term planning.",
       "technologies": "React, TypeScript, Vite, Weather API",
-      "keyFeatures": "Real-Time Weather Information, Hourly & Weekly Forecasts, City Search with Auto-Suggestions, Dynamic Background (Day/Night), Temperature Unit Toggle (Celsius/Fahrenheit), Fully Responsive Design",
-      "image": "showcaseWeather",
+      "name": "Weather or Not",
+      "description": "Weather or Not is a weather app that provides real-time weather updates for any city. You can quickly search for a city and view current weather conditions, including temperature, humidity and forecasts for the day or week ahead. The app offers a dynamic background that changes based on the time of day and lets you switch between Celsius and Fahrenheit, along with other units of measurement for wind speed, pressure and more. With a fully responsive design, you can easily access weather information on any device, keeping you prepared no matter where you are.",
+      "keyFeatures": "Real-Time Weather Info, Hourly & Weekly Forecasts, City Search, Dynamic Background, Temperature Unit Toggle, Fully Responsive",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
     }
   }

@@ -6,21 +6,19 @@
   },
   "projects": {
     "simplify": {
-      "name": "Simplify",
       "logo": "logoSimplify",
-      "description": "Simplify je elegantna i intuitivna aplikacija za popis obaveza dizajnirana da vam pomogne upravljati svojim zadacima s lakoćom i jasnoćom.",
       "technologies": "React, TypeScript, Vite, Firebase",
-      "keyFeatures": "Lako upravljanje zadacima i popisima, sortiranje zadataka prema bojama, pametno planiranje, proslavite uspjeh uz Confetti!, besprijekorna i sigurna provjera autentičnosti korisnika, dizajnirano za sve uređaje",
-      "image": "showcaseSimplify",
+      "name": "Simplify",
+      "description": "Simplify je elegantna i jednostavna aplikacija za popis zadataka koja vam pomaže da ostanete organizirani i produktivni. Možete brzo kreirati, uređivati i brisati popise ili zadatke, koristiti boje za personalizaciju svog sučelja te postaviti datum i vrijeme početka zadatka kako biste lakše pratili napredak. Dizajnirana da besprijekorno radi na svim uređajima, Simplify čuva vaše zadatke te su uvijek nadohvat ruke. Proslavite svoj napredak sa konfetima kad dovršite zadatak, čineći produktivnost nagrađivanom i zabavnom!",
+      "keyFeatures": "Upravljanje Zadacima, Sortiranje Bojama, Pametno Planiranje, Confetti Proslava, Sigurna Provjera Korisnika, Responzivan Dizajn",
       "deployLink": "https://deabocina.github.io/simplify/"
     },
-    "weather": {
-      "name": "Weather or Not",
+    "weatherOrNot": {
       "logo": "logoWeather",
-      "description": "Weather or Not je moderna aplikacija za vremensku prognozu koja korisnicima omogućuje traženje i pregled vremenskih informacija u stvarnom vremenu za bilo koji grad. Dohvaćanjem podataka iz Weather API-ja, aplikacija korisnicima pruža ažurirane podatke o vremenu, što je čini pouzdanim alatom za dnevno i dugoročno planiranje.",
       "technologies": "React, TypeScript, Vite, Weather API",
-      "keyFeatures": "Vremenske informacije u stvarnom vremenu, satne i tjedne prognoze, pretraga grada s automatskim prijedlozima, dinamička pozadina (dan/noć), promjena jedinica temperature (Celsius/Fahrenheit), potpuno responzivan dizajn",
-      "image": "showcaseWeather",
+      "name": "Weather or Not",
+      "description": "Weather or Not je aplikacija za vremensku prognozu koja pruža ažurirane informacije u stvarnom vremenu za bilo koji grad. Možete jednostavno pretraživati po gradu i pregledati trenutne vremenske uvjete, uključujući temperaturu, vlažnost i prognoze za taj dan ili tjedan. Aplikacija nudi dinamičnu pozadinu koja se mijenja ovisno o dobu dana i omogućuje vam prebacivanje između Celzijusa i Fahrenheita, kao i drugih mjernih jedinica za brzinu vjetra, tlak i još mnogo toga. S potpuno responzivnim dizajnom, lako možete pristupiti vremenskim informacijama na bilo kojem uređaju, kako biste uvijek bili pripremljeni bez obzira gdje se nalazite.",
+      "keyFeatures": "Vremenske Informacije u Stvarnom Vremenu, Satne & Tjedne Prognoze, Pretraga Grada, Dinamička Pozadina, Promjena Jedinica Temperature, Potpuno Responzivan Dizajn",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
     }
   }
