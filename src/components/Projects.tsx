@@ -1,7 +1,10 @@
 import { icons } from "../assets/assets";
 import { useTranslation } from "react-i18next";
+import { useCustomInView } from "../hooks/useCustomInView";
 
 const Projects = () => {
+  const { ref: projectsRef, inView: projectsInView } = useCustomInView(0.1);
+  const { ref: footerRef, inView: footerInView } = useCustomInView(0.4);
   const { t } = useTranslation();
 
   const projects = {
@@ -25,7 +28,14 @@ const Projects = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-50 py-10 flex justify-center mb-20">
+      <div
+        ref={projectsRef}
+        className={`min-h-screen bg-gray-50 py-10 flex justify-center mb-20 transition-all duration-1000 ease-out ${
+          projectsInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-20"
+        }`}
+      >
         <div className="space-y-14">
           {Object.entries(projects).map(([key, project]) => {
             const projectId = project.name.toLowerCase().replace(/\s+/g, "-");
@@ -78,7 +88,14 @@ const Projects = () => {
         </div>
       </div>
 
-      <footer className="lg:p-16 lg:text-xl lg:mx-44 md:mx-20 mx-10 uppercase">
+      <footer
+        ref={footerRef}
+        className={`lg:p-16 lg:text-xl lg:mx-44 md:mx-20 mx-10 uppercase transition-all duration-1000 ease-out ${
+          footerInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-10"
+        }`}
+      >
         <div className="flex justify-between">
           <span className="tracking-wider text-sm font-medium mt-5">
             &copy; Dea Bočina

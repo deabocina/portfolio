@@ -1,9 +1,11 @@
 import { icons } from "../assets/assets";
 import "../config/i18n";
 import { useTranslation } from "react-i18next";
+import { useCustomInView } from "../hooks/useCustomInView";
 
 const Home = () => {
   const projects = ["Simplify", "Weather or Not"];
+  const { ref, inView } = useCustomInView(0);
   const { t, i18n } = useTranslation();
 
   const switchLanguage = (lang: string) => {
@@ -13,7 +15,12 @@ const Home = () => {
     "cursor-pointer aspect-square lg:w-12 md:w-10 w-9 transition-all duration-300 ease-in-out hover:ring-4 rounded-full hover:ring-purple-600";
 
   return (
-    <div className="min-h-screen mb-10">
+    <div
+      ref={ref}
+      className={`min-h-screen mb-10 transition-all duration-1000 ease-out ${
+        inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`}
+    >
       <header className="p-4 flex justify-between items-center">
         <div className="ml-5 transition-all duration-300 ease-in-out hover:scale-125">
           <a href="/portfolio/">
@@ -33,7 +40,7 @@ const Home = () => {
           />
           <img
             src={icons.hr}
-            alt="Hrvatski"
+            alt="Croatian"
             onClick={() => switchLanguage("hr")}
             className={langEffect}
           />
