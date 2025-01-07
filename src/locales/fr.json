@@ -7,7 +7,7 @@
   "projects": {
     "libris": {
       "logo": "logoLibris",
-      "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotation API",
+      "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotable API",
       "name": "Libris",
       "description": "Libris est une application moderne de découverte de livres qui vous permet d'explorer les best-sellers, de rechercher des livres et de prévisualiser ou lire gratuitement des titres lorsqu'ils sont disponibles. Construit avec les dernières technologies web, Libris offre une expérience fluide et intuitive pour les amateurs de livres. Avec la navigation par catégories, la recherche d'auteurs et les options de lecture gratuite, Libris est l'endroit idéal pour tous les bibliophiles.",
       "keyFeatures": "Explorez les Best-Sellers, Recherche Avancée, Prévisualisation de Livres, Lecture Gratuite, Design Réactif, Accès aux Best-Sellers du NY Times, Citations Inspirantes",
