@@ -5,6 +5,14 @@
     "projects": "Ausgewählte Projekte"
   },
   "projects": {
+    "libris": {
+      "logo": "logoLibris",
+      "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotation API",
+      "name": "Libris",
+      "description": "Libris ist eine moderne Buchentdeckungs-App, mit der Sie Bestseller erkunden, Bücher suchen und kostenlose Titel ansehen oder lesen können, wenn diese verfügbar sind. Libris bietet ein nahtloses und intuitives Erlebnis für Bücherliebhaber, basierend auf den neuesten Webtechnologien. Mit Kategorienavigation, Autorensuche und kostenlosen Lesemöglichkeiten ist Libris der perfekte Ort für alle Buchliebhaber.",
+      "keyFeatures": "Bestseller Entdecken, Erweiterte Suche, Buchvorschauen, Kostenloses Lesen, Responsives Design, Zugang zu NY Times Bestsellern, Inspirierende Zitate",
+      "deployLink": "https://deabocina.github.io/libris/"
+    },
     "simplify": {
       "logo": "logoSimplify",
       "technologies": "React, TypeScript, Vite, Firebase",
@@ -15,7 +23,7 @@
     },
     "weatherOrNot": {
       "logo": "logoWeather",
-      "technologies": "React, TypeScript, Vite, Weather API",
+      "technologies": "React, TypeScript, SCSS, Vite, Weather API",
       "name": "Weather or Not",
       "description": "Weather or Not ist eine Wetter-App, die Echtzeit-Wetterupdates für jede Stadt bietet. Sie können schnell nach einer Stadt suchen und die aktuellen Wetterbedingungen einsehen, einschließlich Temperatur, Luftfeuchtigkeit und Vorhersagen für den Tag oder die kommende Woche. Die App bietet einen dynamischen Hintergrund, der sich je nach Tageszeit ändert, und ermöglicht es Ihnen, zwischen Celsius und Fahrenheit sowie anderen Maßeinheiten für Windgeschwindigkeit, Druck und mehr umzuschalten. Mit einem vollständig reaktionsschnellen Design können Sie Wetterinformationen auf jedem Gerät leicht abrufen und bleiben überall gut vorbereitet.",
       "keyFeatures": "Echtzeit-Wetterinformationen, Stündliche und wöchentliche Vorhersagen, Stadt-Suche, Dynamischer Hintergrund, Temperatur-Einheitenschalter, Vollständig reaktionsschnell",

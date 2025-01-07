@@ -6,6 +6,7 @@ import fr from "../assets/icons/fr.png";
 import email from "../assets/icons/email.png";
 import github from "../assets/icons/github.png";
 import rightArrow from "../assets/icons/right-arrow.png";
+import logoLibris from "../assets/icons/logo-libris.png";
 import logoSimplify from "../assets/icons/logo-simplify.png";
 import logoWeather from "../assets/icons/logo-weather-or-not.png";
 import upArrow from "../assets/icons/up-arrow.png";
@@ -19,6 +20,7 @@ export const icons = {
   email,
   github,
   rightArrow,
+  logoLibris,
   logoSimplify,
   logoWeather,
   upArrow,

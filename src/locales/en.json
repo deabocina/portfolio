@@ -5,6 +5,14 @@
     "projects": "Selected projects"
   },
   "projects": {
+    "libris": {
+      "logo": "logoLibris",
+      "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotation API",
+      "name": "Libris",
+      "description": "Libris is a modern book discovery app that allows you to explore bestsellers, search for books and preview or read free titles when available. Built using the latest web technologies, Libris provides a seamless and intuitive experience for book lovers. With category browsing, author search and free reading options, Libris is the perfect place for all bibliophiles.",
+      "keyFeatures": "Explore Bestsellers, Advanced Search, Book Previews, Free Reading, Responsive Design, NY Times Bestseller Access, Inspirational Quotes",
+      "deployLink": "https://deabocina.github.io/libris/"
+    },
     "simplify": {
       "logo": "logoSimplify",
       "technologies": "React, TypeScript, Vite, Firebase",
@@ -15,7 +23,7 @@
     },
     "weatherOrNot": {
       "logo": "logoWeather",
-      "technologies": "React, TypeScript, Vite, Weather API",
+      "technologies": "React, TypeScript, SCSS, Vite, Weather API",
       "name": "Weather or Not",
       "description": "Weather or Not is a weather app that provides real-time weather updates for any city. You can quickly search for a city and view current weather conditions, including temperature, humidity and forecasts for the day or week ahead. The app offers a dynamic background that changes based on the time of day and lets you switch between Celsius and Fahrenheit, along with other units of measurement for wind speed, pressure and more. With a fully responsive design, you can easily access weather information on any device, keeping you prepared no matter where you are.",
       "keyFeatures": "Real-Time Weather Info, Hourly & Weekly Forecasts, City Search, Dynamic Background, Temperature Unit Toggle, Fully Responsive",

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useCustomInView } from "../hooks/useCustomInView";
 
 const Home = () => {
-  const projects = ["Simplify", "Weather or Not"];
+  const projects = ["Libris", "Simplify", "Weather or Not"];
   const { ref, inView } = useCustomInView(0);
   const { t, i18n } = useTranslation();
 
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
 
         <div className="xl:ml-20 mx-auto">
-          <p className="uppercase mt-20 font-medium tracking-wider text-gray-400 w-500 mb-5 transition-all duration-300 ease-in-out hover:animate-bounce">
+          <p className="uppercase mt-20 font-medium tracking-wider text-gray-400 w-500 mb-5 transition-all duration-300 ease-in-out hover:translate-x-2">
             {t("home.projects")}
           </p>
 

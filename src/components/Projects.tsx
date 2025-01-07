@@ -8,6 +8,14 @@ const Projects = () => {
   const { t } = useTranslation();
 
   const projects = {
+    libris: {
+      name: t("projects.libris.name"),
+      logo: icons.logoLibris,
+      description: t("projects.libris.description"),
+      technologies: t("projects.libris.technologies"),
+      keyFeatures: t("projects.libris.keyFeatures"),
+      deployLink: "https://deabocina.github.io/libris/",
+    },
     simplify: {
       name: t("projects.simplify.name"),
       logo: icons.logoSimplify,
@@ -47,7 +55,7 @@ const Projects = () => {
                 className="lg:text-xl text-lg mt-12 px-4 max-w-3xl"
               >
                 <div className="flex items-center mx-10 mb-10 space-x-6 bg-white p-6 rounded-2xl shadow-md transition-all duration-300 ease-in-out hover:shadow-lg ">
-                  <div className="aspect-square lg:w-20 w-16 p-3 rounded-full ring-4 ring-black transition-all duration-300 ease-in-out hover:ring-purple-600">
+                  <div className="aspect-square lg:w-20 min-w-16 p-3 rounded-full ring-4 ring-black transition-all duration-300 ease-in-out hover:ring-purple-600">
                     <a
                       href={project.deployLink}
                       target="_blank"
