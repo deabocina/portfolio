@@ -5,6 +5,14 @@
     "projects": "Odabrani projekti"
   },
   "projects": {
+    "prythianRealEstate": {
+      "logo": "logoPrythianRestEstate",
+      "technologies": "JavaScript, SCSS, Node.js, Vite",
+      "name": "Prythian Real Estate",
+      "description": "Prythian Real Estate je moderna aplikacija za pretraživanje nekretnina koja omogućuje jednostavan pregled ponuda. Korisnici mogu istraživati dostupne nekretnine u različitim kategorijama i cjenovnim razredima, vidjeti ključne informacije poput lokacije, veličine, cijene i pogodnosti te pregledavati kvalitetne slike svake nekretnine. Aplikacija uključuje pametnu funkciju pretraživanja za filtriranje nekretnina po nazivu, lokaciji, veličini ili cijeni. S vizualnim pristupom, Prythian Real Estate osigurava jednostavno, intuitivno i informativno iskustvo za svakoga tko želi kupiti ili prodati nekretninu.",
+      "keyFeatures": "Pregledajte ponude nekretnina, Pametna pretraga nekretnina, Pregled slika nekretnina, Interaktivna karta",
+      "deployLink": "https://deabocina.github.io/prythian-real-estate/"
+    },
     "libris": {
       "logo": "logoLibris",
       "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotable API",
@@ -28,6 +36,14 @@
       "description": "Weather or Not je aplikacija za vremensku prognozu koja pruža ažurirane informacije u stvarnom vremenu za bilo koji grad. Možete jednostavno pretraživati po gradu i pregledati trenutne vremenske uvjete, uključujući temperaturu, vlažnost i prognoze za taj dan ili tjedan. Aplikacija nudi dinamičnu pozadinu koja se mijenja ovisno o dobu dana i omogućuje vam prebacivanje između Celzijusa i Fahrenheita, kao i drugih mjernih jedinica za brzinu vjetra, tlak i još mnogo toga. S potpuno responzivnim dizajnom, lako možete pristupiti vremenskim informacijama na bilo kojem uređaju, kako biste uvijek bili pripremljeni bez obzira gdje se nalazite.",
       "keyFeatures": "Vremenske Informacije u Stvarnom Vremenu, Satne & Tjedne Prognoze, Pretraga Grada, Dinamička Pozadina, Promjena Jedinica Temperature, Potpuno Responzivan Dizajn",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
+    },
+    "happyPaws": {
+      "logo": "logoHappyPaws",
+      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "name": "Happy Paws",
+      "description": "Happy Paws je online platforma dizajnirana za olakšavanje kupnje proizvoda za kućne ljubimce. Korisnici mogu kreirati račune, pregledavati proizvode, upravljati košaricama, naručivati, pratiti status narudžbi, voditi liste želja i kreirati do tri profila kućnih ljubimaca. Zaposlenici mogu upravljati proizvodima, obrađivati narudžbe i upravljati popustima, dok administratori nadgledaju sve funkcionalnosti, upravljaju korisničkim ulogama i konfiguriraju postavke sustava. Platforma osigurava besprijekorno, intuitivno i sigurno iskustvo za sve korisnike.",
+      "keyFeatures": "Upravljanje korisničkim računima, Pretraživanje i filtriranje proizvoda, Košarica i plaćanje, Praćenje narudžbi, Lista želja, Profili kućnih ljubimaca, Upravljanje proizvodima od strane zaposlenika, Obrada narudžbi, Upravljanje popustima, Administratorsko upravljanje korisnicima i sustavom",
+      "deployLink": "https://github.com/deabocina/happy-paws"
     }
   },
   "footer": {

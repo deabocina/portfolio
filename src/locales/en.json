@@ -5,6 +5,14 @@
     "projects": "Selected projects"
   },
   "projects": {
+    "prythianRealEstate": {
+      "logo": "logoPrythianRestEstate",
+      "technologies": "JavaScript, SCSS, Node.js, Vite",
+      "name": "Prythian Real Estate",
+      "description": "Prythian Real Estate is a modern real estate finder app designed to make property browsing effortless. Users can explore available properties across different categories and price ranges, view essential details like location, size, price, and amenities, and browse high-quality images for each listing. The app also includes a smart search function to filter properties by name, location, size, or price. Built with a visual-first approach, Prythian Real Estate ensures a smooth, intuitive, and informative experience for anyone looking to buy or sell a property.",
+      "keyFeatures": "Explore Real Estate Listings, Smart Property Search, View Property Images, Interactive Map",
+      "deployLink": "https://deabocina.github.io/prythian-real-estate/"
+    },
     "libris": {
       "logo": "logoLibris",
       "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotable API",
@@ -28,6 +36,14 @@
       "description": "Weather or Not is a weather app that provides real-time weather updates for any city. You can quickly search for a city and view current weather conditions, including temperature, humidity and forecasts for the day or week ahead. The app offers a dynamic background that changes based on the time of day and lets you switch between Celsius and Fahrenheit, along with other units of measurement for wind speed, pressure and more. With a fully responsive design, you can easily access weather information on any device, keeping you prepared no matter where you are.",
       "keyFeatures": "Real-Time Weather Info, Hourly & Weekly Forecasts, City Search, Dynamic Background, Temperature Unit Toggle, Fully Responsive",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
+    },
+    "happyPaws": {
+      "logo": "logoHappyPaws",
+      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "name": "Happy Paws",
+      "description": "Happy Paws is an online platform designed to streamline the purchase of pet-related products. Customers can create accounts, browse products, manage shopping carts, place orders, track order status, maintain wishlists, and create up to three pet profiles. Staff members can manage products, process orders, and handle discounts, while administrators oversee all functionalities, manage user roles, and configure system settings. The platform ensures a seamless, intuitive, and secure experience for all users.",
+      "keyFeatures": "Customer Account Management, Product Search & Filter, Shopping Cart & Checkout, Order Tracking, Wishlist, Pet Profiles, Staff Product Management, Order Processing, Discount Management, Admin User & System Management",
+      "deployLink": "https://github.com/deabocina/happy-paws"
     }
   },
   "footer": {

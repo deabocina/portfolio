@@ -8,6 +8,14 @@ const Projects = () => {
   const { t } = useTranslation();
 
   const projects = {
+    prythianRealEstate: {
+      name: t("projects.prythianRealEstate.name"),
+      logo: icons.logoPrythianRestEstate,
+      description: t("projects.prythianRealEstate.description"),
+      technologies: t("projects.prythianRealEstate.technologies"),
+      keyFeatures: t("projects.prythianRealEstate.keyFeatures"),
+      deployLink: "https://deabocina.github.io/prythian-real-estate/",
+    },
     libris: {
       name: t("projects.libris.name"),
       logo: icons.logoLibris,
@@ -31,6 +39,14 @@ const Projects = () => {
       technologies: t("projects.weatherOrNot.technologies"),
       keyFeatures: t("projects.weatherOrNot.keyFeatures"),
       deployLink: "https://deabocina.github.io/weather-or-not/",
+    },
+    happyPaws: {
+      name: t("projects.happyPaws.name"),
+      logo: icons.logoHappyPaws,
+      description: t("projects.happyPaws.description"),
+      technologies: t("projects.happyPaws.technologies"),
+      keyFeatures: t("projects.happyPaws.keyFeatures"),
+      deployLink: "https://github.com/deabocina/happy-paws",
     },
   };
 

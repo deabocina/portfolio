@@ -9,6 +9,8 @@ import rightArrow from "../assets/icons/right-arrow.png";
 import logoLibris from "../assets/icons/logo-libris.png";
 import logoSimplify from "../assets/icons/logo-simplify.png";
 import logoWeather from "../assets/icons/logo-weather-or-not.png";
+import logoPrythianRestEstate from "../assets/icons/logo-prythian-real-estate.png";
+import logoHappyPaws from "../assets/icons/logo-happy-paws.png";
 import upArrow from "../assets/icons/up-arrow.png";
 
 export const icons = {
@@ -23,5 +25,7 @@ export const icons = {
   logoLibris,
   logoSimplify,
   logoWeather,
+  logoPrythianRestEstate,
+  logoHappyPaws,
   upArrow,
 };

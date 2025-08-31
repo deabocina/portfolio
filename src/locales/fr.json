@@ -5,6 +5,14 @@
     "projects": "Projets sélectionnés"
   },
   "projects": {
+    "prythianRealEstate": {
+      "logo": "logoPrythianRestEstate",
+      "technologies": "JavaScript, SCSS, Node.js, Vite",
+      "name": "Prythian Real Estate",
+      "description": "Prythian Real Estate est une application moderne conçue pour faciliter la recherche de biens immobiliers. Les utilisateurs peuvent parcourir les propriétés disponibles dans différentes catégories et gammes de prix, voir les informations essentielles telles que l'emplacement, la taille, le prix et les équipements, et consulter des images de haute qualité pour chaque bien. L'application propose une fonction de recherche intelligente pour filtrer les biens par nom, emplacement, taille ou prix. Grâce à une approche visuelle, Prythian Real Estate offre une expérience fluide, intuitive et informative pour tous ceux qui cherchent à acheter ou vendre un bien immobilier.",
+      "keyFeatures": "Explorer les annonces immobilières, Recherche intelligente de propriétés, Voir les images des propriétés, Carte interactive",
+      "deployLink": "https://deabocina.github.io/prythian-real-estate/"
+    },
     "libris": {
       "logo": "logoLibris",
       "technologies": "React, TypeScript, Tailwind CSS, Vite, Redux, Google Books API, NY Times API, Quotable API",
@@ -28,6 +36,14 @@
       "description": "Weather or Not est une application météo qui fournit des mises à jour en temps réel pour n'importe quelle ville. Vous pouvez rechercher rapidement une ville et voir les conditions météorologiques actuelles, y compris la température, l'humidité et les prévisions pour la journée ou la semaine à venir. L'application offre un fond dynamique qui change en fonction de l'heure de la journée et vous permet de passer de Celsius à Fahrenheit, ainsi que d'autres unités de mesure pour la vitesse du vent, la pression et plus encore. Avec un design entièrement réactif, vous pouvez facilement accéder aux informations météorologiques sur n'importe quel appareil, vous permettant de rester préparé où que vous soyez.",
       "keyFeatures": "Informations météorologiques en temps réel, Prévisions horaires et hebdomadaires, Recherche de ville, Fond dynamique, Commutateur d'unité de température, Entièrement réactif",
       "deployLink": "https://deabocina.github.io/weather-or-not/"
+    },
+    "happyPaws": {
+      "logo": "logoHappyPaws",
+      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "name": "Happy Paws",
+      "description": "Happy Paws est une plateforme en ligne conçue pour faciliter l'achat de produits pour animaux. Les clients peuvent créer des comptes, parcourir les produits, gérer leur panier, passer des commandes, suivre l'état de leurs commandes, maintenir des listes de souhaits et créer jusqu'à trois profils d'animaux. Les employés peuvent gérer les produits, traiter les commandes et gérer les réductions, tandis que les administrateurs supervisent toutes les fonctionnalités, gèrent les rôles des utilisateurs et configurent les paramètres du système. La plateforme garantit une expérience fluide, intuitive et sécurisée pour tous les utilisateurs.",
+      "keyFeatures": "Gestion des comptes clients, Recherche & filtrage de produits, Panier & paiement, Suivi des commandes, Liste de souhaits, Profils d'animaux, Gestion des produits par le personnel, Traitement des commandes, Gestion des réductions, Gestion des utilisateurs & du système par l’administrateur",
+      "deployLink": "https://github.com/deabocina/happy-paws"
     }
   },
   "footer": {
