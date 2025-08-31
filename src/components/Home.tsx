@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useCustomInView } from "../hooks/useCustomInView";
 
 const Home = () => {
-  const projects = ["Prythian Real Estate", "Libris", "Simplify", "Weather or Not", "Happy Paws"];
+  const projects = ["Prythian Real Estate", "Libris", "Simplify", "Weather or Not", "Happy Paws", "Home Fur Good"];
   const { ref, inView } = useCustomInView(0);
   const { t, i18n } = useTranslation();
 

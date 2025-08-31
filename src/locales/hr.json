@@ -39,11 +39,19 @@
     },
     "happyPaws": {
       "logo": "logoHappyPaws",
-      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "technologies": "JavaScript, Java Spring Boot, Vite, PayPal API, PostgreSQL",
       "name": "Happy Paws",
       "description": "Happy Paws je online platforma dizajnirana za olakšavanje kupnje proizvoda za kućne ljubimce. Korisnici mogu kreirati račune, pregledavati proizvode, upravljati košaricama, naručivati, pratiti status narudžbi, voditi liste želja i kreirati do tri profila kućnih ljubimaca. Zaposlenici mogu upravljati proizvodima, obrađivati narudžbe i upravljati popustima, dok administratori nadgledaju sve funkcionalnosti, upravljaju korisničkim ulogama i konfiguriraju postavke sustava. Platforma osigurava besprijekorno, intuitivno i sigurno iskustvo za sve korisnike.",
       "keyFeatures": "Upravljanje korisničkim računima, Pretraživanje i filtriranje proizvoda, Košarica i plaćanje, Praćenje narudžbi, Lista želja, Profili kućnih ljubimaca, Upravljanje proizvodima od strane zaposlenika, Obrada narudžbi, Upravljanje popustima, Administratorsko upravljanje korisnicima i sustavom",
       "deployLink": "https://github.com/deabocina/happy-paws"
+    },
+    "homeFurGood": {
+      "logo": "logoHomeFurGood",
+      "technologies": "JavaScript, Java Spring Boot, PostgreSQL",
+      "name": "Home Fur Good",
+      "description": "Home Fur Good je Java aplikacija dizajnirana za centar za udomljavanje pasa. Potencijalni posvojitelji mogu kreirati račune, pretraživati pse, podnositi zahtjeve za posvajanje, pratiti status ugovora i izraziti interes za volontiranje. Osoblje skloništa može upravljati podacima o psima, obrađivati zahtjeve za posvajanje, koordinirati volontere i slati obavijesti. Administratori nadgledaju sve funkcionalnosti, upravljaju korisničkim ulogama i konfiguriraju postavke sustava, osiguravajući nesmetan i siguran proces udomljavanja za sve korisnike.",
+      "keyFeatures": "Upravljanje računima posvojitelja, Pretraživanje & filtriranje pasa, Zahtjev za posvajanje, Uređivanje profila, Opcija volontiranja, Praćenje statusa ugovora, Upravljanje podacima o psima od strane osoblja, Popisi za posvajanje, Proces odobravanja, Upravljanje cijepljenjem, Upravljanje volonterima, Administratorsko upravljanje korisnicima i sustavom",
+      "deployLink": "https://github.com/deabocina/home-fur-good"
     }
   },
   "footer": {

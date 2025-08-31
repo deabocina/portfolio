@@ -48,6 +48,14 @@ const Projects = () => {
       keyFeatures: t("projects.happyPaws.keyFeatures"),
       deployLink: "https://github.com/deabocina/happy-paws",
     },
+    homeFurGood: {
+      name: t("projects.homeFurGood.name"),
+      logo: icons.logoHomeFurGood,
+      description: t("projects.homeFurGood.description"),
+      technologies: t("projects.homeFurGood.technologies"),
+      keyFeatures: t("projects.homeFurGood.keyFeatures"),
+      deployLink: "https://github.com/deabocina/home-fur-good",
+    },
   };
 
   return (

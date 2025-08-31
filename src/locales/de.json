@@ -39,11 +39,19 @@
     },
     "happyPaws": {
       "logo": "logoHappyPaws",
-      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "technologies": "JavaScript, Java Spring Boot, Vite, PayPal API, PostgreSQL",
       "name": "Happy Paws",
       "description": "Happy Paws ist eine Online-Plattform, die den Kauf von Tierprodukten erleichtert. Kunden können Konten erstellen, Produkte durchsuchen, Warenkörbe verwalten, Bestellungen aufgeben, den Bestellstatus verfolgen, Wunschlisten pflegen und bis zu drei Tierprofile erstellen. Mitarbeiter können Produkte verwalten, Bestellungen bearbeiten und Rabatte verwalten, während Administratoren alle Funktionen überwachen, Benutzerrollen verwalten und Systemeinstellungen konfigurieren. Die Plattform bietet ein nahtloses, intuitives und sicheres Erlebnis für alle Nutzer.",
       "keyFeatures": "Kundenkonto-Verwaltung, Produktsuche & Filter, Warenkorb & Checkout, Bestellverfolgung, Wunschliste, Tierprofile, Mitarbeiter Produktverwaltung, Bestellbearbeitung, Rabattverwaltung, Admin Benutzer- & Systemverwaltung",
       "deployLink": "https://github.com/deabocina/happy-paws"
+    },
+    "homeFurGood": {
+      "logo": "logoHomeFurGood",
+      "technologies": "JavaScript, Java Spring Boot, PostgreSQL",
+      "name": "Home Fur Good",
+      "description": "Home Fur Good ist eine Java-Anwendung für ein Hunde-Adoptionszentrum. Potenzielle Adoptierende können Konten erstellen, nach Hunden suchen, Adoptionsanträge einreichen, den Vertragsstatus verfolgen und Interesse an Freiwilligenarbeit zeigen. Das Tierheim-Personal kann Hundedaten verwalten, Adoptionsanträge bearbeiten, Freiwillige koordinieren und Benachrichtigungen senden. Administratoren überwachen alle Funktionen, verwalten Benutzerrollen und konfigurieren Systemeinstellungen, um einen reibungslosen und sicheren Adoptionsprozess zu gewährleisten.",
+      "keyFeatures": "Verwaltung von Benutzerkonten, Hundesuche & Filter, Adoptionsantrag, Profilbearbeitung, Freiwilligenoption, Vertragsstatusverfolgung, Verwaltung von Hundedaten durch Personal, Adoptionslisten, Genehmigungsprozess, Impfmanagement, Freiwilligenmanagement, Admin Benutzer- & Systemverwaltung",
+      "deployLink": "https://github.com/deabocina/home-fur-good"
     }
   },
   "footer": {

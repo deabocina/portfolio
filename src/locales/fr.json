@@ -39,11 +39,19 @@
     },
     "happyPaws": {
       "logo": "logoHappyPaws",
-      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "technologies": "JavaScript, Java Spring Boot, Vite, PayPal API, PostgreSQL",
       "name": "Happy Paws",
       "description": "Happy Paws est une plateforme en ligne conçue pour faciliter l'achat de produits pour animaux. Les clients peuvent créer des comptes, parcourir les produits, gérer leur panier, passer des commandes, suivre l'état de leurs commandes, maintenir des listes de souhaits et créer jusqu'à trois profils d'animaux. Les employés peuvent gérer les produits, traiter les commandes et gérer les réductions, tandis que les administrateurs supervisent toutes les fonctionnalités, gèrent les rôles des utilisateurs et configurent les paramètres du système. La plateforme garantit une expérience fluide, intuitive et sécurisée pour tous les utilisateurs.",
       "keyFeatures": "Gestion des comptes clients, Recherche & filtrage de produits, Panier & paiement, Suivi des commandes, Liste de souhaits, Profils d'animaux, Gestion des produits par le personnel, Traitement des commandes, Gestion des réductions, Gestion des utilisateurs & du système par l’administrateur",
       "deployLink": "https://github.com/deabocina/happy-paws"
+    },
+    "homeFurGood": {
+      "logo": "logoHomeFurGood",
+      "technologies": "JavaScript, Java Spring Boot, PostgreSQL",
+      "name": "Home Fur Good",
+      "description": "Home Fur Good est une application Java conçue pour un centre d'adoption de chiens. Les adoptants potentiels peuvent créer des comptes, rechercher des chiens, soumettre des demandes d'adoption, suivre le statut des contrats et s'impliquer en tant que bénévoles. Le personnel du refuge peut gérer les dossiers des chiens, traiter les demandes d'adoption, gérer les bénévoles et envoyer des notifications. Les administrateurs supervisent toutes les fonctionnalités, gèrent les rôles des utilisateurs et configurent les paramètres du système pour garantir un processus d'adoption fluide et sécurisé.",
+      "keyFeatures": "Gestion des comptes adoptants, Recherche & filtrage de chiens, Demande d'adoption, Édition de profil, Option bénévole, Suivi du statut des contrats, Gestion des dossiers chiens par le personnel, Listes d'adoption, Processus d'approbation, Gestion des vaccins, Gestion des bénévoles, Gestion utilisateurs & système par l’administrateur",
+      "deployLink": "https://github.com/deabocina/home-fur-good"
     }
   },
   "footer": {

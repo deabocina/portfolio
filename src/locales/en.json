@@ -39,11 +39,19 @@
     },
     "happyPaws": {
       "logo": "logoHappyPaws",
-      "technologies": "JavaScript, Java, Vite, PayPal API, PostgreSQL",
+      "technologies": "JavaScript, Java Spring Boot, Vite, PayPal API, PostgreSQL",
       "name": "Happy Paws",
       "description": "Happy Paws is an online platform designed to streamline the purchase of pet-related products. Customers can create accounts, browse products, manage shopping carts, place orders, track order status, maintain wishlists, and create up to three pet profiles. Staff members can manage products, process orders, and handle discounts, while administrators oversee all functionalities, manage user roles, and configure system settings. The platform ensures a seamless, intuitive, and secure experience for all users.",
       "keyFeatures": "Customer Account Management, Product Search & Filter, Shopping Cart & Checkout, Order Tracking, Wishlist, Pet Profiles, Staff Product Management, Order Processing, Discount Management, Admin User & System Management",
       "deployLink": "https://github.com/deabocina/happy-paws"
+    },
+    "homeFurGood": {
+      "logo": "logoHomeFurGood",
+      "technologies": "JavaScript, Java Spring Boot, PostgreSQL",
+      "name": "Home Fur Good",
+      "description": "Home Fur Good is a Java application designed for a dog adoption center. Prospective adopters can create accounts, search for dogs, submit adoption applications, track contract status, and express interest in volunteering. Shelter staff can manage dog records, process adoption applications, manage volunteers, and handle notifications. Administrators oversee all functionalities, manage user roles, and configure system settings, ensuring a smooth and secure adoption process for all users.",
+      "keyFeatures": "Prospective Adopter Account Management, Dog Search & Filter, Adoption Application, Profile Editing, Volunteer Option, Contract Status Tracking, Staff Dog Record Management, Adoption Listing, Approval Process, Vaccine Management, Volunteer Management, Admin User & System Management",
+      "deployLink": "https://github.com/deabocina/home-fur-good"
     }
   },
   "footer": {
