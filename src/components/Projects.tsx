@@ -76,43 +76,42 @@ const Projects = () => {
               <div
                 key={key}
                 id={projectId}
-                className="lg:text-xl text-lg mt-12 px-4 max-w-3xl"
+                className="max-w-4xl mx-auto w-full bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-5 flex flex-col md:flex-row items-start gap-4"
               >
-                <div className="flex items-center mx-10 mb-10 space-x-6 bg-white p-6 rounded-2xl shadow-md transition-all duration-300 ease-in-out hover:shadow-lg ">
-                  <div className="aspect-square lg:w-20 min-w-16 p-3 rounded-full ring-4 ring-black transition-all duration-300 ease-in-out hover:ring-purple-600">
-                    <a
-                      href={project.deployLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src={project.logo}
-                        alt={project.name}
-                        className="object-cover w-full h-full"
-                      />
-                    </a>
-                  </div>
+                <a
+                  href={project.deployLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-16 h-16 flex-shrink-0 rounded-full overflow-hidden hover:ring-4 hover:ring-purple-600 ease-in-out transition-all duration-300"
+                >
+                  <img
+                    src={project.logo}
+                    alt={project.name}
+                    className="w-full h-full object-contain"
+                  />
+                </a>
 
-                  <div>
-                    <h1 className="lg:text-3xl text-xl font-medium text-gray-800 tracking-wide">
-                      {project.name}
-                    </h1>
-                    <small className="uppercase text-sm font-medium tracking-wider text-gray-400">
-                      {project.technologies}
-                    </small>
-                  </div>
-                </div>
-                <p className="text-gray-700 mx-10">{project.description}</p>
+                <div className="flex-1 flex flex-col gap-1">
+                  <h2 className="text-lg md:text-xl font-semibold text-gray-900">
+                    {project.name}
+                  </h2>
+                  <small className="uppercase text-gray-500 text-xs md:text-sm">
+                    {project.technologies}
+                  </small>
+                  <p className="text-gray-700 mt-2 text-sm md:text-base">
+                    {project.description}
+                  </p>
 
-                <div className="mt-8 text-sm mx-10 font-medium">
-                  {project.keyFeatures.split(", ").map((tag, key) => (
-                    <span
-                      key={key}
-                      className="inline-block mr-5 mb-2 bg-gray-200 rounded-3xl p-2 transition-all duration-300 ease-in-out hover:scale-110"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {project.keyFeatures.split(", ").map((tag, i) => (
+                      <span
+                        key={i}
+                        className="bg-gray-100 px-2 py-1 rounded-full text-xs font-medium hover:bg-purple-100 hover:scale-110 transition-all"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             );
