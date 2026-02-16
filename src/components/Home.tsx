@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-12 lg:mt-0 flex-1">
+        <div className="mt-12 ml-12 lg:mt-0 flex-1">
           <p className="uppercase text-gray-400 font-medium tracking-wider mb-6">{t("home.projects")}</p>
           <div className="flex flex-col gap-4">
             {projects.map((project, index) => (
